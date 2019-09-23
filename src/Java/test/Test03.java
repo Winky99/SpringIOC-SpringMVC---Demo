@@ -1,0 +1,11 @@
+package test;
+
+public class Test03 {
+    public static void main(String[] args) {
+        String s = "123123";
+        String[] s1 = s.split("1");
+        System.out.println(s1[0]);
+        System.out.println(s1[1]);
+       // System.out.println(s1[0]);
+    }
+}
